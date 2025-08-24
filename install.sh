@@ -1,7 +1,5 @@
 #!/bin/sh
 
-curl -sS https://starship.rs/install.sh | sh --yes
-
 git config --global user.name $GIT_USERNAME
 git config --global user.email $GIT_EMAIL
 git config --global gpg.format ssh
