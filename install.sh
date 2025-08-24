@@ -9,3 +9,6 @@ git config --global user.signingkey ~/.ssh/key
 git config --global commit.gpgsign true
 
 echo $GIT_SIGNING_KEY > ~/.ssh/key
+
+mkdir ~/.ssh
+cp ./ssh-config.txt ~/.ssh/config
